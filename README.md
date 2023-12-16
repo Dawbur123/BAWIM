@@ -21,25 +21,25 @@ Celem tego zadania jest napisanie skryptu, który podmieni wartość cookiesa.
 
 1. **Napisanie skryptu:**
    - Najpierw napiszemy prosty skrypt js, który pozwoli nam na odczytanie cookiesów. Napisz skrypt, który wypisze w alercie twoje cookiesy.
-Można to zrobić w kilku miejscach na tej stronie np. w polu Homepage w ustawieniach profilu. 
+   Można to zrobić w kilku miejscach na tej stronie np. w polu Homepage w ustawieniach profilu. 
 
-![Alt text](image-1.png)
+   ![Alt text](image-1.png)
 
-Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
+   - Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
 
-![Alt text](image-2.png)
+   ![Alt text](image-2.png)
 
 2. **Dodanie cookiesa:**
    - Zmodyfikuj wcześniejszy skrypt, aby dodał cookiesa o nazwie BAWIM i value niezdane, który wygaśnie we czwartek, 18 Grudnia 2050 roku. 
 
-![Alt text](image-5.png)
+   ![Alt text](image-5.png)
 
-   Wyjaśnij dlaczego data ważności ciasteczka różni się od tej, którą podaliśmy bezpośrednio w skrypcie.
+   - Wyjaśnij dlaczego data ważności ciasteczka różni się od tej, którą podaliśmy bezpośrednio w skrypcie.
 
 3. **Zmiana wartości cookiesa:**
    - Zmodyfikuj wcześniejszy skrypt, aby zmienił wartość ciasteczka BAWIM na zdane
 
-![Alt text](image-4.png)
+   ![Alt text](image-4.png)
 
 # Zadanie 3
 
@@ -57,7 +57,7 @@ Można to zrobić w kilku miejscach na tej stronie np. w polu Homepage w ustawie
 
 ![Alt text](image-1.png)
 
-Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
+   - Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
 
 
 
@@ -66,7 +66,7 @@ Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym
 
    ![Alt text](image-3.png)
 
-   Przejdź do zakładki Home i zobacz czy zalogowany użytkownik się zmienił.
+   - Przejdź do zakładki Home i zobacz czy zalogowany użytkownik się zmienił.
 
-   Jak już sie pewnie domyślacie atakujący nie będzie miał możliwości skopiowania z jednego okna do drugiego. Normalnie skrypt fetchowałby te cookiesy do jego własnego serera, gdzie mógłby odczytać wartość a następnie przejąć sesje. Ponieważ nie każdy z nas posiada własny serwer zostaniemy na kopiowaniu. Chętni mogą spróbować zmodyfikowac tak skrypt, aby otrzymać ciasteczko czy to przez własny serwer czy wykorzystując słabości strony i zmuszenia użytkownika to udostęnienia swojego cookiesa w snippecie.
+   - Jak już sie pewnie domyślacie atakujący nie będzie miał możliwości skopiowania z jednego okna do drugiego. Normalnie skrypt fetchowałby te cookiesy do jego własnego serera, gdzie mógłby odczytać wartość a następnie przejąć sesje. Ponieważ nie każdy z nas posiada własny serwer zostaniemy na kopiowaniu. Chętni mogą spróbować zmodyfikowac tak skrypt, aby otrzymać ciasteczko czy to przez własny serwer czy wykorzystując słabości strony i zmuszenia użytkownika to udostęnienia swojego cookiesa w snippecie.
 
