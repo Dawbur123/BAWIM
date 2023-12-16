@@ -14,8 +14,34 @@ Celem tego zadania jest zapoznanie się z mechanizmem przechowywania cookies na 
 3. **Wyświetlenie Informacji:**
    - Po odszukaniu ciasteczek, wrzuć screen shota na upel i wyjaśnij co oznaczją poszczególne pola.
 
-
 # Zadanie 2
+
+## Cel zadania
+Celem tego zadania jest napisanie skryptu, który podmieni wartość cookiesa.
+
+1. **Napisanie skryptu:**
+   - Najpierw napiszemy prosty skrypt js, który pozwoli nam na odczytanie cookiesów. Napisz skrypt, który wypisze w alercie twoje cookiesy.
+Można to zrobić w kilku miejscach na tej stronie np. w polu Homepage w ustawieniach profilu. 
+
+![Alt text](image-1.png)
+
+Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
+
+![Alt text](image-2.png)
+
+2. **Dodanie cookiesa:**
+   - Zmodyfikuj wcześniejszy skrypt, aby dodał cookiesa o nazwie BAWIM i value niezdane, który wygaśnie we czwartek, 18 Grudnia 2050 roku. 
+
+![Alt text](image-5.png)
+
+   Wyjaśnij dlaczego data ważności ciasteczka różni się od tej, którą podaliśmy bezpośrednio w skrypcie.
+
+3. **Zmiana wartości cookiesa:**
+   - Zmodyfikuj wcześniejszy skrypt, aby zmienił wartość ciasteczka BAWIM na zdane
+
+![Alt text](image-4.png)
+
+# Zadanie 3
 
 ## Cel zadania
 Celem tego zadania jest zdobycie sesji innego użytkownika
@@ -33,7 +59,7 @@ Można to zrobić w kilku miejscach na tej stronie np. w polu Homepage w ustawie
 
 Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
 
-![Alt text](image-2.png)
+
 
 3. **Zdobycie sesji:**
    - Teraz możemy podmienić wartość cookiesa drugiego konta wartością konta pierwszego. Skopiujemy to co dostaliśmy po znaku równa się w allercie i w opcjach cookiesa podmienimy wartość na drugim koncie.
