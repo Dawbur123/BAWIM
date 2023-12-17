@@ -52,13 +52,9 @@ Celem tego zadania jest zdobycie sesji innego użytkownika
    ![Alt text](image.png)
 
 2. **Atak XSS:**
-   - Następnie napiszemy prosty skrypt js, który pozwoli nam na odczytanie cookiesów. Napisz skrypt, który wypisze w alercie twoje cookiesy.
-Można to zrobić w kilku miejscach na tej stronie np. w polu Homepage w ustawieniach profilu. 
+   - Następnie napiszemy prosty skrypt js, który pozwoli nam na odczytanie cookiesów. Można użyć tego z poprzedniego zadania. 
 
 ![Alt text](image-1.png)
-
-   - Teraz gdy dodamy nowy wpis, a następnie klikniemy przycisk Homepage przy naszym wpisie, przeniesie to nas na link, który wykona nasz wcześniej napisany skrypt.
-
 
 
 3. **Zdobycie sesji:**
